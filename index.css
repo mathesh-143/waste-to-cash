@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    background-color:rgb(83, 82, 82);
+    padding:25px;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 80px;   
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    font-size: 1.2rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-bar a:hover {
+    color: rgb(251, 108, 108); 
+}
+.background {
+    position: relative;
+    background: 
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  
+        url("cash.webp");  
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background h1{
+    position: absolute;
+    font-size: 100px;
+    width: 100px;
+    margin-left: -65%;
+    margin-top: -10%;
+}
+.background h1::first-letter {
+    color: red;  
+    font-size: 100px; 
+}
+
+.background h4{
+    position: absolute;
+ margin-top: 15%;
+ margin-left: -52%;
+ letter-spacing: 5px;
+}
+
+.button button{
+    position: absolute;
+    color: white;
+    background: darkcyan;
+    padding: 25px 60px 25px 60px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-left: -20%;
+    margin-top: 10%;
+}
+.waste{
+    width: 50%;
+    margin-left: 50%;
+    line-height: 50px;
+    font-size: 20px;
+    list-style: square;
+}
+.img img{
+    border-radius: 30px;
+    margin-left: 70%;
+    margin-top: -10%;
+}
